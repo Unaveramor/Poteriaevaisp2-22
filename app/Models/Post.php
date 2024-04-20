@@ -10,6 +10,10 @@ class Post extends Model
 {
     use Sluggable;
 
+    public function posts(){
+        return $this->belongsToMany(Post::class);
+    }
+
     public function sluggable(): array
     {
         return[
