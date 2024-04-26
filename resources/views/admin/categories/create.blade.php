@@ -1,5 +1,6 @@
 @extends('admin.layouts.layout')
 
+
 @section('content')
 <div class="content_wrapper">
         <section class="content_header">
